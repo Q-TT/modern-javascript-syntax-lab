@@ -1,6 +1,7 @@
 // Use `.map()` to iterate over the following array:
 const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 
+
 // 1. Create a new array where each value is multiplied by 2 and log the new array.
 const nums2 = nums.map((currentNum) => {
     return currentNum*2
@@ -50,6 +51,7 @@ const userProfile ={
 }
 console.log(userProfile)
 
+
 // 8. Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
 // 1. `cat`
 // 2. `white`
@@ -58,3 +60,14 @@ function writeSentence (noun, adjective) {
     console.log(`The ${noun} is ${adjective}.`)
 }
 writeSentence("cat", "white")
+
+
+// 9. Convert the following `if...else` statement in to a ternary:
+let pizza = 'tasty';
+if (pizza === 'tasty') {
+  console.log('yum');
+} else {
+  console.log('yuck');
+}
+
+pizza==="tasty" ? console.log("yum") : console.log("yuck") 
